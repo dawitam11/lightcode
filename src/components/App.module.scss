@@ -1,0 +1,16 @@
+$background-color:#21201e;
+.root {
+  display:flex;
+  width:100vw;
+  height:100vh;
+  background:$background-color;
+  color:white;
+}
+.fileTree {
+  width:300px;
+}
+.separator {
+  width: 2px;
+  background:lightblue;
+  cursor:w-resize;
+}
