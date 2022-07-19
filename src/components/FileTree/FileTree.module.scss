@@ -1,5 +1,14 @@
 @import "../../index.scss";
-.fileTree {
-  color: red;
+.fileTreeWrapper {
+  display: flex;
+  justify-content: center;
   background: $background-light;
+}
+.fileTree {
+  width: 100%;
+}
+.resizer {
+  width: 4px;
+  background-color: $background-lightest;
+  cursor:col-resize;
 }
