@@ -1,16 +1,19 @@
-$background-color:#21201e;
+$background: #010e19;
+$background-light: #011627;
+$background-lighter: #011c32;
+$background-lightest: #045495;
 .root {
-  display:flex;
-  width:100vw;
-  height:100vh;
-  background:$background-color;
-  color:white;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: $background;
+  color: white;
 }
 .fileTree {
-  width:300px;
+  width: 300px;
+  background: $background-light;
 }
 .separator {
-  width: 2px;
-  background:lightblue;
-  cursor:w-resize;
+  background: lightblue;
+  cursor: w-resize;
 }
